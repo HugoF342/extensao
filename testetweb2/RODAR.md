@@ -8,8 +8,8 @@
 - No diretório do projeto, executar:
   - `docker compose up -d --build`
 - Acessar no navegador:
-  - `http://localhost:8080/` (Página inicial)
-  - `http://localhost:8080/acoes` (Listagem dinâmica)
+  - `http://localhost:8050/` (Página inicial)
+  - `http://localhost:8050/acoes` (Listagem dinâmica)
 
 ## Serviços
 - `web` (Tomcat 9 + JDK 17): publica o WAR em `ROOT.war`
