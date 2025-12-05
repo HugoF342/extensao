@@ -2,7 +2,7 @@
 
 ## Pré-requisitos
 - Docker Desktop instalado e iniciado
-- Porta `8080` livre no host
+- Porta `8050` livre no host
 
 ## Execução com Docker
 - No diretório do projeto, executar:
