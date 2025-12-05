@@ -1,0 +1,11 @@
+services:
+  web:
+    build: .
+    container_name: ext_web
+    ports:
+      - "8050:8080"
+    restart: unless-stopped
+    volumes:
+      - sqlite-data:/data
+volumes:
+  sqlite-data:
